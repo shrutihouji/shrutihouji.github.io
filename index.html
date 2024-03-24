@@ -11,6 +11,22 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
+	<style>
+        /* Add your CSS styles here */
+        .project {
+            width: 200px; /* Adjust as needed */
+            margin: 10px;
+            cursor: pointer;
+        }
+        .project img {
+            width: 100%;
+            height: auto;
+        }
+        .project-details {
+            display: none;
+            /* Add styling for expanded project details */
+        }
+    </style>
 	<body class="is-preload">
 
 		<!-- Nav -->
@@ -105,13 +121,7 @@
 •	Expedited input feature decision-making by 5%, streamlining process and enabling informed data-driven decisions. <br>
 •	Increased business process efficiency by 75% by implementing OCR solutions to process financial data using Data cap application, .NET technology, Oracle, Python, and agile methodologies. <br>
 
-<div class="col-4 col-6-medium col-12-small">
-	<article class="box style2">
-		<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
-		<h3><a href="#">Magna feugiat</a></h3>
-		<p>Ornare nulla proin odio consequat.</p>
-	</article>
-</div>
+
 					</header>
 					<!-- <div class="row">
 						<div class="col-4 col-6-medium col-12-small">
@@ -177,6 +187,17 @@
 					•Trained a neural network model using MONAI Pytorch for cancer diagnosis leveraging AWS cloud infrastructure.<br>
 					Github link : <a href="https://github.com/shrutihouji/Skin-Lesion-Classification-">Project Link</a></p><br>
 				</header>
+
+				</div>
+
+				<div class="project" onclick="toggleDetails('project1')">
+					<img src="images/pic01.jpg" alt="Project 1">
+					<div class="project-details" id="project1-details">
+						<p style="text-align: left;"><strong>Skin Lesion Classification for melanoma detection</strong><br>
+							•Spearheaded an end-to-end skin cancer detection system using machine learning and amazon services like S3, SageMaker, Lambda, IAM and API Gateway to streamline the analysis of dermatoscopic images.<br>
+							•Trained a neural network model using MONAI Pytorch for cancer diagnosis leveraging AWS cloud infrastructure.<br>
+							Github link : <a href="https://github.com/shrutihouji/Skin-Lesion-Classification-">Project Link</a></p><br>
+					</div>
 				</div>
 
 		</article>
@@ -254,6 +275,18 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+
+			<script>
+				function toggleDetails(projectId) {
+					var details = document.getElementById(projectId + '-details');
+					if (details.style.display === "none") {
+						details.style.display = "block";
+					} else {
+						details.style.display = "none";
+					}
+				}
+			</script>
 
 	</body>
 </html>
