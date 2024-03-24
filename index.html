@@ -26,6 +26,10 @@
             display: none;
             /* Add styling for expanded project details */
         }
+		.project-name {
+            margin-top: 5px;
+            font-weight: bold;
+        }
     </style>
 	<body class="is-preload">
 
@@ -191,7 +195,8 @@
 				</div>
 
 				<div class="container" onclick="toggleDetails('project1')">
-					<img src="images/pic01.jpg" alt="Skin Lesion Classification for melanoma detection">
+					<img src="images/pic01.jpg" alt="Project 1">
+					<div class="project-name">Skin Lesion Classification for melanoma detection</div>
 					<div class="project-details" id="project1-details">
 						<p style="text-align: left;"><strong>Skin Lesion Classification for melanoma detection</strong><br>
 							•Spearheaded an end-to-end skin cancer detection system using machine learning and amazon services like S3, SageMaker, Lambda, IAM and API Gateway to streamline the analysis of dermatoscopic images.<br>
