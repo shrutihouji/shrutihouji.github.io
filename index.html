@@ -186,7 +186,7 @@
 		<article id="projects" class="wrapper style3">
 			<div class="container">
 				<header>
-					<h2>Here are my Key Projects.</h2>
+					<!--h2>Here are my Key Projects.</h2>
 					<p style="text-align: left;"><strong>Datawage Navigator</strong><br>
 					•Structured a robust MySQL database system for a comprehensive data science job analysis project and established relationships between the tables for optimal data retrieval.<br>
 					•Developed and integrated CRUD operations using Flask to enable seamless communication between the MySQL database and the user interface facilitating interactive exploration of job data dynamics.<br>
@@ -194,36 +194,58 @@
 					<p style="text-align: left;"><strong>Skin Lesion Classification for melanoma detection</strong><br>
 					•Spearheaded an end-to-end skin cancer detection system using machine learning and amazon services like S3, SageMaker, Lambda, IAM and API Gateway to streamline the analysis of dermatoscopic images.<br>
 					•Trained a neural network model using MONAI Pytorch for cancer diagnosis leveraging AWS cloud infrastructure.<br>
-					Github link : <a href="https://github.com/shrutihouji/Skin-Lesion-Classification-">Project Link</a></p><br>
+					Github link : <a href="https://github.com/shrutihouji/Skin-Lesion-Classification-">Project Link</a></p><br-->
+
+					<div class="container" onclick="toggleDetails('project1')">
+						<img src="images/datawage.png" alt="Project 1">
+						<div class="project-name">Datawage Navigator</div>
+						<div class="project-details" id="project1-details">
+							<!-- Details for Project 1 -->
+							•Structured a robust MySQL database system for a comprehensive data science job analysis project and established relationships between the tables for optimal data retrieval.<br>
+							•Developed and integrated CRUD operations using Flask to enable seamless communication between the MySQL database and the user interface facilitating interactive exploration of job data dynamics.<br>
+							Github link : <a href="https://github.com/shrutihouji/Datawage-Navigator">Project Link</a></p> <br>
+						</div>
+					</div>
+
+					<div class="container" onclick="toggleDetails('project2')">
+						<img src="images/skin-cancer.png" alt="Project 2">
+						<div class="project-name">Skin Lesion Classification for melanoma detection</div>
+						<div class="project-details" id="project2-details">
+							<p style="text-align: left;"><strong>Skin Lesion Classification for melanoma detection</strong><br>
+								•Spearheaded an end-to-end skin cancer detection system using machine learning and amazon services like S3, SageMaker, Lambda, IAM and API Gateway to streamline the analysis of dermatoscopic images.<br>
+								•Trained a neural network model using MONAI Pytorch for cancer diagnosis leveraging AWS cloud infrastructure.<br>
+								Github link : <a href="https://github.com/shrutihouji/Skin-Lesion-Classification-">Project Link</a></p><br>
+						</div>
+					</div>
+
+					<div class="container" onclick="toggleDetails('project3')">
+						<img src="images/face+eyes.jpg" alt="Project 3">
+						<div class="project-name">GAN faces detection using Machine Learning and Deep Learning Approach</div>
+						<div class="project-details" id="project2-details">
+							<!--p style="text-align: left;"><strong>Skin Lesion Classification for melanoma detection</strong-->
+								Generated a scatter plot illustrating the distinct features of GAN-generated faces and discerned a notable consistency in the relative positioning of the eye coordinates across these faces. <br>
+•	Created and evaluated an ensemble machine learning model alongside deep learning counterparts such as XceptionNet and ResNet50. The ensemble model demonstrated comparable accuracy to DL models while being computationally more efficient, leveraging deep learning libraries like TensorFlow and Keras.<br>
+								Github link : <a href="https://github.com/shrirangmhalgi/GAN-Face-Detection">Project Link</a></p><br>
+						</div>
+					</div>
+
+					<div class="container" onclick="toggleDetails('project3')">
+						<img src="images/energy-analytics.png" alt="Project 3">
+						<div class="project-name"></div>
+						<div class="project-details" id="project2-details">
+							<p style="text-align: left;"><strong>Energy Analytics and Prediction in the USA</strong><br>
+								Created a dashboard for visualizations and prediction of the
+energy resource “Natural Gas” for the United States of America to optimize
+energy prices, imports, exports, production, and consumption that’ll lead to a sustainable
+energy resource using different machine learning models like ARIMA, VAR, VARMAX, ARIMAX, LSTM.<br>
+								Github link : <a href="https://github.com/shrutihouji/Energy-Resources-Analytics-">Project Link</a></p><br>
+						</div>
+					</div>
 				</header>
 
 				</div>
 
-				<div class="projects-container">
-				<div class="container" onclick="toggleDetails('project1')">
-					<img src="images/datawage.png" alt="Project 1">
-					<div class="project-name">Datawage Navigator</div>
-					<div class="project-details" id="project1-details">
-						<!-- Details for Project 1 -->
-						•Structured a robust MySQL database system for a comprehensive data science job analysis project and established relationships between the tables for optimal data retrieval.<br>
-						•Developed and integrated CRUD operations using Flask to enable seamless communication between the MySQL database and the user interface facilitating interactive exploration of job data dynamics.<br>
-						Github link : <a href="https://github.com/shrutihouji/Datawage-Navigator">Project Link</a></p> <br>
-					</div>
-				</div>
-				
-				<div class="container" onclick="toggleDetails('project2')">
-					<img src="images/pic01.jpg" alt="Project 2">
-					<div class="project-name">Skin Lesion Classification for melanoma detection</div>
-					<div class="project-details" id="project2-details">
-						<!-- Details for Project 2 -->
-						<p style="text-align: left;"><strong>Skin Lesion Classification for melanoma detection</strong><br>
-							•Spearheaded an end-to-end skin cancer detection system using machine learning and amazon services like S3, SageMaker, Lambda, IAM and API Gateway to streamline the analysis of dermatoscopic images.<br>
-							•Trained a neural network model using MONAI Pytorch for cancer diagnosis leveraging AWS cloud infrastructure.<br>
-							Github link : <a href="https://github.com/shrutihouji/Skin-Lesion-Classification-">Project Link</a></p><br>
-					</div>
-				</div>
 
-				</div>
 		</article>
 		<!-- Contact -->
 			<article id="contact" class="wrapper style4">
