@@ -247,20 +247,8 @@ energy resource using different machine learning models like ARIMA, VAR, VARMAX,
 
 		
 		</article>
-		<article id="contact">
-			<form action="https://api.web3forms.com/submit" method="POST">
-
-				<input type="hidden" name="access_key" value="959bae93-d46c-4198-8a91-884eb8d7e6c1">
-			
-				<input type="text" name="name" required>
-				<input type="email" name="email" required>
-				<textarea name="message" required></textarea>
-				<button type="submit">Submit Form</button>
-			
-			</form>
-		</article>
 		<!-- Contact -->
-			<!--article id="contact" class="wrapper style4">
+			<article id="contact" class="wrapper style4">
 				
 				<div class="container medium">
 					<header>
@@ -272,21 +260,19 @@ energy resource using different machine learning models like ARIMA, VAR, VARMAX,
 							<form method="post" action="#">
 								<div class="row">
 									<div class="col-6 col-12-small">
-										<input type="text" name="name" id="name" placeholder="Name" />
+										<input type="text" name="name" id="name" required >
 									</div>
 									<div class="col-6 col-12-small">
-										<input type="text" name="email" id="email" placeholder="Email" />
+										<input type="text" name="email" required>
 									</div>
 									<div class="col-12">
-										<input type="text" name="subject" id="subject" placeholder="Subject" />
-									</div>
-									<div class="col-12">
-										<textarea name="message" id="message" placeholder="Message"></textarea>
+										<textarea name="message" required></textarea>
 									</div>
 									<div class="col-12">
 										<ul class="actions">
-											<li><input type="submit" value="Send Message" /></li>
-											<li><input type="reset" value="Clear Form" class="alt" /></li>
+											<button type="submit">Submit Form</button>
+											<!--li><input type="submit" value="Send Message" /></li>
+											<li><input type="reset" value="Clear Form" class="alt" /></li-->
 										</ul>
 									</div>
 								</div>
